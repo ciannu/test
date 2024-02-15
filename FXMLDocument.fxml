@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recetascocina.FXMLDocumentController">
+   <children>
+      <TextField fx:id="fieldNombreReceta" layoutX="169.0" layoutY="136.0" />
+      <Text layoutX="60.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de la receta" />
+      <TextField fx:id="fieldIngrediente1" layoutX="170.0" layoutY="166.0" />
+      <Text layoutX="108.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente2" layoutX="170.0" layoutY="191.0" />
+      <Text layoutX="108.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente3" layoutX="170.0" layoutY="216.0" />
+      <Text layoutX="108.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente4" layoutX="170.0" layoutY="241.0" />
+      <Text layoutX="108.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente5" layoutX="170.0" layoutY="266.0" />
+      <Text layoutX="108.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente6" layoutX="170.0" layoutY="291.0" />
+      <Text layoutX="108.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente7" layoutX="170.0" layoutY="316.0" />
+      <Text layoutX="108.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente8" layoutX="170.0" layoutY="341.0" />
+      <Text layoutX="108.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente9" layoutX="170.0" layoutY="366.0" />
+      <Text layoutX="108.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente10" layoutX="170.0" layoutY="391.0" />
+      <Text layoutX="108.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente11" layoutX="170.0" layoutY="416.0" />
+      <Text layoutX="108.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente12" layoutX="170.0" layoutY="441.0" />
+      <Text layoutX="108.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente13" layoutX="170.0" layoutY="466.0" />
+      <Text layoutX="108.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente14" layoutX="170.0" layoutY="491.0" />
+      <Text layoutX="108.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente15" layoutX="170.0" layoutY="516.0" />
+      <Text layoutX="108.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextField fx:id="fieldIngrediente16" layoutX="170.0" layoutY="541.0" />
+      <Text layoutX="108.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingrediente" />
+      <TextArea fx:id="areaInstrucionesRecetas" layoutX="346.0" layoutY="163.0" prefHeight="368.0" prefWidth="439.0" />
+      <TextArea fx:id="areaListadoRecetas" layoutX="169.0" layoutY="14.0" prefHeight="115.0" prefWidth="616.0" />
+      <Text layoutX="52.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Listado de las recetas" />
+      <Text layoutX="345.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instrucciones de la receta:" />
+      <Button layoutX="522.0" layoutY="541.0" mnemonicParsing="false" onAction="#buttonAnyadirReceta" text="Añadir receta" />
+      <Separator layoutX="8.0" layoutY="132.0" prefHeight="1.0" prefWidth="789.0" />
+   </children>
+</AnchorPane>
